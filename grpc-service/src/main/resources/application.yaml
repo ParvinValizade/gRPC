@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: author-service
+
+grpc:
+  server:
+    port: 9000
+#server:
+#  port: 8081
+

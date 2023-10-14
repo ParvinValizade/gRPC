@@ -1,0 +1,11 @@
+grpc:
+  server:
+    port: 9091
+  client:
+    author-service:
+      address: static://localhost:9000
+      enable-keep-alive: true
+      keep-alive-without-calls: true
+      negotiation-type: plaintext
+server:
+  port: 8081
